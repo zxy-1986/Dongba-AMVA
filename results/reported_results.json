@@ -1,0 +1,36 @@
+{
+  "main_comparison": {
+    "Random Split": {"SplitAcc": 40.43, "Page-EM": 33.33, "N<M Acc": 19.49},
+    "Uniform Split": {"SplitAcc": 39.48, "Page-EM": 31.58, "N<M Acc": 18.21},
+    "Greedy CN-CLIP": {"SplitAcc": 37.59, "Page-EM": 35.09, "N<M Acc": 15.65},
+    "Sinkhorn-OT (CN-CLIP)": {"SplitAcc": 39.95, "Page-EM": 31.58, "N<M Acc": 18.85},
+    "CN-CLIP + DP (B0)": {"SplitAcc": 42.32, "Page-EM": 33.33, "N<M Acc": 22.04},
+    "CLIP-multilingual zero-shot": {"SplitAcc": 39.01, "Page-EM": 31.58, "N<M Acc": 17.57},
+    "SigLIP-2 multilingual zero-shot": {"SplitAcc": 43.74, "Page-EM": 33.33, "N<M Acc": 23.96},
+    "Qwen2.5-VL-7B zero-shot": {"SplitAcc": 41.61, "Page-EM": 33.33, "N<M Acc": 21.09},
+    "AMVA": {"SplitAcc": 63.83, "Page-EM": 40.35, "N<M Acc": 51.12}
+  },
+  "controlled": {
+    "B0_cnclip_dp": {"SplitAcc": 42.32, "Page-EM": 33.33, "N<M Acc": 22.04},
+    "B1_lora_dp": {"SplitAcc": 53.43, "Page-EM": 35.09, "N<M Acc": 37.06},
+    "B2_text_cabp_dp": {"SplitAcc": 49.41, "Page-EM": 33.33, "N<M Acc": 31.63},
+    "E5_lora_cabp": {"SplitAcc": 62.17, "Page-EM": 38.60, "N<M Acc": 48.88},
+    "E7_full": {"SplitAcc": 63.83, "Page-EM": 40.35, "N<M Acc": 51.12}
+  },
+  "ablation": {
+    "E0_zeroshot": {"SplitAcc": 42.55, "Page-EM": 33.33, "N<M Acc": 22.36},
+    "E1_lora": {"SplitAcc": 54.85, "Page-EM": 35.09, "N<M Acc": 38.98},
+    "E2_ama": {"SplitAcc": 48.70, "Page-EM": 35.09, "N<M Acc": 30.67},
+    "E3_cabp": {"SplitAcc": 52.25, "Page-EM": 33.33, "N<M Acc": 35.46},
+    "E4_lora_ama": {"SplitAcc": 53.19, "Page-EM": 35.09, "N<M Acc": 36.74},
+    "E5_lora_cabp": {"SplitAcc": 62.17, "Page-EM": 38.60, "N<M Acc": 48.88},
+    "E6_ama_cabp": {"SplitAcc": 51.54, "Page-EM": 33.33, "N<M Acc": 34.50},
+    "E7_full": {"SplitAcc": 63.83, "Page-EM": 40.35, "N<M Acc": 51.12}
+  },
+  "robustness": {
+    "Clean": {"SplitAcc": 63.83, "Page-EM": 40.35, "N<M Acc": 51.12},
+    "Gaussian Blur": {"SplitAcc": 62.41, "Page-EM": 38.60, "N<M Acc": 49.20},
+    "Ink Fading": {"SplitAcc": 63.12, "Page-EM": 35.09, "N<M Acc": 50.16},
+    "Local Damage": {"SplitAcc": 61.70, "Page-EM": 38.60, "N<M Acc": 48.24}
+  }
+}
