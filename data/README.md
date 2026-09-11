@@ -9,6 +9,8 @@ data/
     ├── <block-image-1>.png
     ├── <block-image-2>.png
     ├── <block-image-3>.png
+    ├── <block-image-4>.png
+    ├── <block-image-5>.png
     └── ...
 ```
 
@@ -20,7 +22,7 @@ Each entry of `pages.json` has the following minimum fields:
   "page_id": "...",
   "N": 6,
   "M": 26,
-  "image_files": ["a.png", "b.png", "c.png", "d.png", "e.png", "f.png"],
+  "image_files": ["a.png", "b.png", "c.png", "d.png", "e.png", "f.png", "g.png"],
   "candidate_fragments": ["片段1", "片段2", "..."],
   "gold_splits": [3, 7, 12, 18, 22],
   "split": "test"
