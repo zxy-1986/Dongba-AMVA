@@ -8,6 +8,7 @@ data/
 └── images/
     ├── <block-image-1>.png
     ├── <block-image-2>.png
+    ├── <block-image-3>.png
     └── ...
 ```
 
